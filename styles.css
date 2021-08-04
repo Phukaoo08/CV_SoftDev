@@ -73,20 +73,20 @@ body {
   color: #e66767;
 }
 
-.social_media {
+.sm {
   display: flex;
   justify-content: center;
   margin: 20px 0;
 }
 
-.social_media a {
+.sm a {
   color: #f2f2f2;
   width: 56px;
   font-size: 22px;
   transition: 0.3s linear;
 }
 
-.social_media a:hover {
+.sm a:hover {
   color: lightgreen;
 }
 
