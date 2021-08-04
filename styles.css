@@ -37,7 +37,7 @@ body {
 }
 
 .card-header {
-  backgreound: #2c3a47;
+  background: #2c3a47;
   padding: 60px 40px;
 }
 
@@ -68,8 +68,8 @@ body {
 
 .pic img {
   display: block;
-  width: 100px;
-  height: 100px;
+  /* width: 100px;
+  height: 100px; */
   border-radius: 50%;
 }
 
