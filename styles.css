@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400:700");
 
 * {
-  box-sizing: border-box;
-}
-
-html,
-body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -22,14 +19,96 @@ body {
   animation: gradient 15s ease infinite;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
+.profile-card {
+  width: 400px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-header {
+  backgreound: #2c3a47;
+  padding: 60px 40px;
+}
+
+.pic {
+  display: inline-block;
+  padding: 8px;
+  background: linear-gradient(120deg, #74b9ff, #e66767);
+  margin: auto;
+  border-radius: 50%;
+  background-size: 200% 200%;
+  animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient {
+  25% {
+    background-position: left bottom;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: right bottom;
+  }
+  75% {
+    background-position: right top;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: left top;
   }
+}
+
+.pic img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  color: #f2f2f2;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 18px;
+  color: #e66767;
+}
+
+.social-media {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  margin-top: -0.45rem;
+}
+
+.social-media i {
+  font-size: 3rem;
+}
+
+.fa-facebook-square {
+  color: #3b5999;
+}
+
+.fa-twitter-square {
+  color: #55acee;
+}
+
+.fa-instagram {
+  color: #e6683c;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram:hover,
+.fa-google-plus-square:hover {
+  color: black;
+}
+
+.border{
+    width: 1px;
+    height: 30px;
+    background: #bbb;
 }
