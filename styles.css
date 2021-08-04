@@ -17,18 +17,6 @@ body {
   justify-content: center;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 .profile-card {
   width: 400px;
   text-align: center;
@@ -86,35 +74,35 @@ body {
 }
 
 .social-media {
-  width: 100%;
-  list-style: none;
   display: flex;
-  justify-content: space-evenly;
-  padding: 2rem 0;
-  margin-top: -0.45rem;
+  justify-content: center;
+  margin: 20px 0;
 }
 
-.social-media i {
-  font-size: 3rem;
+.social-media a {
+    color: #f2f2f2;
+    width: 56px;
+    font-size: 22px;
+    transition: .3s linear;
 }
 
-.fa-facebook-square {
-  color: #3b5999;
+.social-media a:hover{
+    color: lightgreen;
 }
 
-.fa-twitter-square {
-  color: #55acee;
+.contact-btn{
+    display: inline-block;
+    padding: 12px 50px;
+    color: lightgreen;
+    border: 2px solid lightgreen;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s linear;
 }
 
-.fa-instagram {
-  color: #e6683c;
-}
-
-.fa-facebook-square:hover,
-.fa-twitter-square:hover,
-.fa-instagram:hover,
-.fa-google-plus-square:hover {
-  color: black;
+.contact-btn:hover{
+    background:lightgreen;
+    color: white;
 }
 
 .border {
