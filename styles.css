@@ -73,36 +73,36 @@ body {
   color: #e66767;
 }
 
-.social-media {
+.social_media {
   display: flex;
   justify-content: center;
   margin: 20px 0;
 }
 
-.social-media a {
-    color: #f2f2f2;
-    width: 56px;
-    font-size: 22px;
-    transition: .3s linear;
+.social_media a {
+  color: #f2f2f2;
+  width: 56px;
+  font-size: 22px;
+  transition: 0.3s linear;
 }
 
-.social-media a:hover{
-    color: lightgreen;
+.social_media a:hover {
+  color: lightgreen;
 }
 
-.contact-btn{
-    display: inline-block;
-    padding: 12px 50px;
-    color: lightgreen;
-    border: 2px solid lightgreen;
-    border-radius: 6px;
-    margin-top: 16px;
-    transition: .3s linear;
+.contact-btn {
+  display: inline-block;
+  padding: 12px 50px;
+  color: lightgreen;
+  border: 2px solid lightgreen;
+  border-radius: 6px;
+  margin-top: 16px;
+  transition: 0.3s linear;
 }
 
-.contact-btn:hover{
-    background:lightgreen;
-    color: white;
+.contact-btn:hover {
+  background: lightgreen;
+  color: white;
 }
 
 .border {
