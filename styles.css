@@ -9,14 +9,12 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  height: 100vh;
+  background: url(picture/Background.jpg) no-repeat center;
+  background-size: cover;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background: linear-gradient(120deg, #753c11, #3e5151, #decba4, #2ee59d);
-  background-size: 400% 400%;
-  overflow: hidden;
-  animation: gradient 15s ease infinite;
+  justify-content: center;
 }
 
 @keyframes gradient {
